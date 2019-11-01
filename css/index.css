@@ -71,11 +71,34 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 35px 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+nav a:hover {
+    color: lightgray;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transform: scale(1.5);
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    padding: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -87,6 +110,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
+    padding: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -104,12 +128,97 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dashed black;
+}
+
+.top-about {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    width: 95%;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.cards section {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+
+.cards section h2 {
+    padding-top: 15px;
+}
+
+.button {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+    width: 125px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
 }
 
 .bottom-content {
@@ -124,6 +233,43 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-bottom {
+    padding: 15px 0 40px;
+    width: 95%;
+}
+
+.about-bottom-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.contact-form label {
+    padding: 20px 0;
+}
+
+.contact-form textarea {
+    margin-bottom: 20px;
+}
+
+
+.submit-button {
+    width: 80px;
+    text-align: center;
 }
 
 footer {
