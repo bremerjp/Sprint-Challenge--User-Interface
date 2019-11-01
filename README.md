@@ -50,7 +50,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
 
-    Git offers many benefits to a team of developers. Git allows developers to maintain different versions of their code in case they need to rollback due to an issue. Git also assists developer track the integrity of their code by detecting when any changes are made to a file. Git also allows developers on teams to work on different branches of the code and then merge these changes back to the master. This makes for much easer collaboration on projects. 
+    Git offers many benefits to a team of developers. Git allows developers to maintain different versions of their code in case they need to rollback due to an issue. Git also assists developers in tracking the integrity of their code by detecting when any changes are made to a file. Git also allows developers on teams to work on different branches of the code and then merge their changes back to the master. This makes for much easer collaboration on team projects. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
